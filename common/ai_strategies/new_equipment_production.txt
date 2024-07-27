@@ -1,0 +1,13 @@
+default_role_ratios = {
+	ai_strategy = {
+		type = role_ratio
+		id = ifv
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armored_car
+		value = 100
+	}
+
+}

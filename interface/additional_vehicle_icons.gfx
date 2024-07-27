@@ -1,0 +1,69 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_GER_mechanised_infantry4_medium"
+		texturefile = "gfx/graphics/GER_ifv.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_leopard1_medium"
+		texturefile = "gfx/graphics/leopard1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ru252_medium"
+		texturefile = "gfx/graphics/ru251.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanised_infantry4_medium"
+		texturefile = "gfx/graphics/ifv.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_jet_mrca_medium"
+		texturefile = "gfx/graphics/GER_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_jet_mrca_medium"
+		texturefile = "gfx/graphics/SOV_multirole.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_amx13"
+		texturefile = "gfx/graphics/amx13.dds"
+	}
+	SpriteType = {
+		name = "GFX_charioteer"
+		texturefile = "gfx/graphics/charioteer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_1"
+		texturefile = "gfx/graphics/bul_main_battle_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_2"
+		texturefile = "gfx/graphics/centurion.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_3"
+		texturefile = "gfx/graphics/yug_main_battle_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_4"
+		texturefile = "gfx/graphics/SOV_main_battle_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_5"
+		texturefile = "gfx/graphics/m47f.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_6"
+		texturefile = "gfx/graphics/pol_main_battle_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_tank_7"
+		texturefile = "gfx/graphics/prc_main_battle_tank.dds"
+	}
+}

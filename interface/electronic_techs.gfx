@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_t_atomic_engines_medium"
+		texturefile = "gfx/interface/technologies/nuclear_reactor.dds"
+	}
+}

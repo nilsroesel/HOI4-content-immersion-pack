@@ -1,0 +1,160 @@
+technologies = {
+	t_anti_ship_rocket_battery = {
+		research_cost = 1
+
+		start_year = 1943
+
+		enable_equipment_modules = {
+			anti_ship_rocket_battery
+			anti_ship_rocket_battery_small
+			anti_ship_rocket_battery_medium
+			anti_ship_rocket_battery_heavy
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -8 y = 19 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+		}
+		dependencies = {
+            advanced_computing_machine = 1
+            advanced_rocket_engines = 1
+		}
+
+		path = {
+			leads_to_tech = t_anti_ship_rocket_battery_2
+			research_cost_coeff = 1
+		}
+	}
+
+	t_anti_ship_rocket_battery_2 = {
+		research_cost = 1
+
+		start_year = 1945
+
+		enable_equipment_modules = {
+			anti_ship_rocket_battery_2
+			anti_ship_rocket_battery_2_small
+			anti_ship_rocket_battery_2_medium
+			anti_ship_rocket_battery_2_heavy
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -6 y = 22 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+		}
+	}
+
+	improved_light_shell = {
+
+		research_cost = 0.5
+
+		start_year = 1942
+
+		path = {
+			leads_to_tech = advanced_light_battery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = t_anti_ship_rocket_battery
+			research_cost_coeff = 1
+		}
+
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battle_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -6 y = 16 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 10
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+	}
+
+
+
+	advanced_light_battery = {
+
+		research_cost = 1
+
+		start_year = 1944
+
+		enable_equipment_modules = {
+			ship_light_battery_4
+		}
+
+		path = {
+			leads_to_tech = t_anti_ship_rocket_battery
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = light_battery_advice_tt
+		}
+
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -6 y = 19 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = advanced_ship_hull_light
+				factor = 20
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+		}
+	}
+}

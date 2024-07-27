@@ -1,0 +1,80 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_t_guided_weapons_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_t_guided_bomb_medium"
+		texturefile = "gfx/interface/technologies/hunt_and_destroy.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_t_guided_air_to_ground_missile_medium"
+		texturefile = "gfx/interface/technologies/combat_unit_destruction.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_t_air_to_air_missiles_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_t_unguided_air_to_air_missiles_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_t_parachute_drop_system_medium"
+		texturefile = "gfx/graphics/parachute_drop_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_t_cargo_hold_medium"
+		texturefile = "gfx/graphics/cargo_hold.dds"
+	}
+
+
+
+
+
+
+    spriteType = {
+		name = "GFX_EMI_guided_bomb"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
+		legacy_lazy_load = no
+	}
+
+    spriteType = {
+		name = "GFX_EMI_guided_air_to_ground_missile"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_icon.dds"
+		legacy_lazy_load = no
+	}
+
+    spriteType = {
+		name = "GFX_EMI_air_to_air_missiles"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_torpedo_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_unguided_air_to_air_missiles"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_rocket_rail_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_parachute_drop_system"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_cargo_hold"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_troop_carrier.dds"
+		legacy_lazy_load = no
+	}
+
+
+}

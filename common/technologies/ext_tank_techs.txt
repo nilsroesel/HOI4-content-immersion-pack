@@ -1,0 +1,430 @@
+technologies = {
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 7
+	@1941 = 8
+	@1942 = 9
+	@1943 = 10
+	@1944 = 11
+	@1945 = 12
+	@1946 = 14
+
+	t_tank_wheeled_suspension_improved = {
+		enable_equipment_modules = {
+			tank_wheeled_suspension_improved
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -5 y = @1939 }
+		}
+		categories = {
+			armor
+		}
+	}
+
+	t_reconnaissance_optics = {
+        enable_equipment_modules = {
+			reconnaissance_optics
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -3 y = @1939 }
+		}
+		categories = {
+			armor
+		}
+	}
+
+    t_tank_night_vision_optics = {
+        enable_equipment_modules = {
+			tank_night_vision_optics
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1946
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = @1946 }
+		}
+		categories = {
+			armor
+		}
+
+        dependencies = {
+            night_vision2 = 1
+		}
+	}
+
+    t_weapon_guidance = {
+        enable_equipment_modules = {
+			weapon_guidance
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = @1946 }
+		}
+		categories = {
+			armor
+		}
+	}
+
+    t_guided_at_missile = {
+		category_all_infantry = {
+			hard_attack = 1.5
+			ap_attack = 1.5
+		}
+
+        enable_equipment_modules = {
+			guided_at_missile
+			guided_anti_tank_launcher_equipment
+		}
+        folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1945 }
+		}
+        show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1945
+        categories = {
+			armor
+		}
+
+		dependencies = {
+            advanced_computing_machine = 1
+            advanced_rocket_engines = 1
+		}
+    }
+
+	t_zimmerit = {
+        enable_equipment_modules = {
+			zimmerit
+		}
+        folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = @1944 }
+		}
+        show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1943
+        categories = {
+			armor
+		}
+    }
+	
+	t_tank_composit_armor = {
+
+		enable_equipment_modules = {
+			tank_composit_armor
+		}
+
+		research_cost = 1
+		start_year = 1946
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = @1946 }
+		}
+
+
+		categories = {
+			armor
+		}
+	}
+
+
+    armor_tech_3 = {
+
+
+		path = {
+			leads_to_tech = armor_tech_4
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = t_zimmerit
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_3_tt
+		}
+		show_effect_as_desc = yes
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	armor_tech_4 = {
+
+		path = {
+			leads_to_tech = t_tank_composit_armor
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = @1944 }
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_4_tt
+		}
+		show_effect_as_desc = yes
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+
+    main_battle_tank_chassis = { #E-50
+
+		enable_equipments = {
+			modern_tank_chassis_1
+			modern_tank_destroyer_chassis_1
+			modern_tank_artillery_chassis_1
+			modern_tank_aa_chassis_1
+		}
+		enable_subunits = {
+			modern_armor
+		}
+
+		research_cost = 2.5
+		start_year = 1945
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1945 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1948.1.1"
+			}
+		}
+
+        path = {
+			leads_to_tech = t_weapon_guidance
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = t_tank_night_vision_optics
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	improved_light_tank_chassis = { #Panzer II
+
+		enable_equipments = {
+			light_tank_chassis_2
+			light_tank_destroyer_chassis_2
+			light_tank_artillery_chassis_2
+			light_tank_aa_chassis_2
+		}
+
+		path = {
+			leads_to_tech = t_tank_wheeled_suspension_improved
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = advanced_light_tank_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = t_reconnaissance_optics
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
+			}
+			modifier = {
+				is_major = yes
+				not = { tag = JAP }
+				has_war = yes
+				factor = 10 #you are embarassing yourself
+			}
+			modifier = {
+				tag = SOV
+				factor = 3
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+	}
+
+	advanced_light_tank_chassis = { #Leopard
+
+		enable_equipments = {
+			light_tank_chassis_3
+			light_tank_destroyer_chassis_3
+			light_tank_artillery_chassis_3
+			light_tank_aa_chassis_3
+		}
+
+		path = {
+			leads_to_tech = t_guided_at_missile
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1941
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				is_major = no
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+}

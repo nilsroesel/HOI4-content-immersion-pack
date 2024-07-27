@@ -1,0 +1,39 @@
+spriteTypes = {
+		
+	SpriteType = {	
+		name = "GFX_tech_jaeger_medium"
+		texturefile = "gfx/graphics/jaeger1.dds"
+	}
+	SpriteType = {	
+		name = "GFX_tech_jaeger2_medium"
+		texturefile = "gfx/graphics/jaeger2.dds"
+	}
+	SpriteType = {	
+		name = "GFX_tech_jaeger3_medium"
+		texturefile = "gfx/graphics/jaeger3.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_unit_light_infantry_battalion_icon_medium"
+		textureFile = "gfx/graphics/unit_light_infantry_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_light_infantry_battalion_icon_medium_white"				
+		textureFile = "gfx/graphics/onmap_unit_light_infantry_icon.dds" 
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_light_infantry_battalion_icon_small"
+		texturefile = "gfx/texticons/nato_unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_light_infantry_battalion_small"
+		texturefile = "gfx/texticons/unit_light_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+}

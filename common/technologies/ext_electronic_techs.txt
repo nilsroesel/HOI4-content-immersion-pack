@@ -1,0 +1,126 @@
+technologies = {
+	nuclear_reactor = {
+
+		# can build reactors
+		
+		start_year = 1943
+		research_cost = 5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = nukes 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = t_atomic_engines
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				tag = USA
+				factor = 2
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
+	}
+	t_atomic_engines = {
+
+		# can build reactors
+		
+		start_year = 1945
+		research_cost = 5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 1 y = 4 }
+		}
+
+		enable_equipment_modules = {
+			nuclear_carrier_ship_engine
+			nuclear_heavy_ship_engine
+			nuclear_cruiser_ship_engine
+			nuclear_sub_ship_engine
+			nuclear_light_ship_engine
+		}
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				tag = USA
+				factor = 2
+			}
+		}
+
+		
+		
+		categories = {
+			nuclear
+		}
+	}
+
+	radio = {
+
+		# units with radios can more efficiently join combats when there is room
+		land_reinforce_rate = 0.05
+		coordination_bonus = 0.04
+		
+		path = {
+			leads_to_tech = radio_detection 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.75
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		enable_equipment_modules = { 
+			tank_radio_1
+			radio_navigation_1
+			radios
+		}
+
+		folder = {
+			name = support_folder
+			position = { x = 11 y = 9 } # x = 12 y = 0
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 6
+				has_war = yes
+			}
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				factor = 5
+				date > "1939.8.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+}

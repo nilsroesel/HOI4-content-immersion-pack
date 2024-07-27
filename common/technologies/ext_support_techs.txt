@@ -1,0 +1,251 @@
+technologies = {
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	tech_engineers = {
+
+
+		enable_subunits = {
+			engineer
+		}
+
+		enable_equipment_modules = {
+			pioneer_equipment
+		}
+		
+		path = {
+			leads_to_tech = tech_engineers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	tech_recon = {
+
+		enable_subunits = {
+			recon
+			mot_recon
+			armored_car_recon
+			light_tank_recon
+		}
+
+		enable_equipment_modules = {
+			reconnaissance_equipment
+		}
+		
+		path = {
+			leads_to_tech = tech_recon2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	tech_field_hospital = {
+
+		enable_subunits = {
+			field_hospital
+		}
+
+		enable_equipment_modules = {
+			first_aid_kits
+		}
+		
+		path = {
+			leads_to_tech = tech_field_hospital2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			motorised_infantry = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1939.1.1"
+			}
+		}
+	}
+
+	tech_military_police = {
+
+		enable_subunits = {
+			military_police
+		}
+
+		enable_equipment_modules = {
+			crowd_control
+		}
+		
+		path = {
+			leads_to_tech = tech_military_police2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+
+			modifier = {
+				factor = 10
+				tag = GER
+
+				POL = { has_capitulated = yes }
+				GER = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ITA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+	}
+}

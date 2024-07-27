@@ -1,0 +1,284 @@
+
+equipments = {
+
+	mechanized_ifv_chassis = {
+		year = 1936
+		is_archetype = yes
+		is_buildable = no
+
+		#can_be_produced = {
+		#	NOT = {
+		#		has_idea = BUL_army_restrictions
+		#	}
+		#}
+
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		
+
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_non_tracked_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+					ifv
+				}
+			}
+			
+		}
+
+		fuel_consumption = 0
+		maximum_speed = 8
+		build_cost_ic = 1
+		reliability = 1
+		hardness 	= 0.5
+		defense = 2
+		armor_value = 2
+		resources = {
+			steel = 1
+			rubber = 1
+		}
+
+		manpower = 2
+
+	}
+	
+	mechanized_ifv_chassis_0 = {
+		year = 1934
+
+		archetype = mechanized_ifv_chassis
+		priority = 30
+		visual_level = 0
+		module_slots = inherit
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 2
+		breakthrough = 2
+		hardness = 0.5
+		armor_value = 2
+
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 1
+		ap_attack = 5
+		air_attack = 15
+		
+		build_cost_ic = 10
+		resources = {
+			#oil = 1
+			steel = 2
+		}
+		fuel_consumption = 0.6
+	}
+
+	mechanized_ifv_chassis_1 = {
+		year = 1936
+
+		archetype = mechanized_ifv_chassis
+		parent = mechanized_ifv_chassis_0
+		module_slots = inherit
+
+		priority = 30
+		visual_level = 1
+		can_convert_from = { 
+			mech_chassis_0
+			mech_chassis_1
+		}
+		
+		#Misc Abilities
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 2.5
+		breakthrough = 2.5
+		armor_value = 8
+
+		#Offensive Abilities
+		soft_attack = 3
+		hard_attack = 1.5
+		ap_attack = 20
+		air_attack = 17	
+		
+		build_cost_ic = 11
+		resources = {
+			#oil = 1
+			steel = 3
+		}
+	}
+
+	mechanized_ifv_chassis_2 = {
+		year = 1941
+
+		archetype = mechanized_ifv_chassis
+		parent = mechanized_ifv_chassis_1
+		priority = 30
+		visual_level = 2
+		can_convert_from = { 
+			armored_car_aa_chassis_1
+			armored_car_aa_chassis_2
+		}
+		
+		#Misc Abilities
+		maximum_speed = 14
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 5
+		armor_value = 14
+
+		#Offensive Abilities
+		soft_attack = 4.5
+		hard_attack = 4
+		ap_attack = 35
+		
+		build_cost_ic = 12
+		resources = {
+			#oil = 2
+			steel = 4
+		}
+
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_non_tracked_suspension_type
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+					ifv
+				}
+			}
+			
+		}
+
+
+	}
+}

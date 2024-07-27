@@ -1,0 +1,262 @@
+## Editor
+spriteTypes = {
+	#Slot Icons
+	spriteType = {
+		name = "GFX_EMSI_main_weapons_slot"
+		textureFile = "gfx/graphics/main_weapon_slot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_rig_type_slot"
+		textureFile = "gfx/graphics/infantry_rig_slot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_support_weapon_slot1"
+		textureFile = "gfx/graphics/support_weapos_slot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_support_weapon_slot2"
+		textureFile = "gfx/graphics/support_weapos_slot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_support_weapon_slot3"
+		textureFile = "gfx/graphics/support_weapos_slot_icon.dds"
+	}
+
+	# Category Icons
+	spriteType = {
+		name = "GFX_EMI_grenades"
+		textureFile = "gfx/graphics/module_category_grenades.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_support_equipment"
+		textureFile = "gfx/graphics/module_category_support_equipment.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_extra_equipment"
+		textureFile = "gfx/graphics/module_category_extra_equipment.dds"
+		legacy_lazy_load = no
+	}
+}
+
+# Support Modules
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_flamethrower_equipment"
+		textureFile = "gfx/graphics/module_flame_thrower.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_small_mortar_equipment"
+		textureFile = "gfx/graphics/module_small_mortar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_heavy_mortar_equipment"
+		textureFile = "gfx/graphics/module_heavy_mortar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_light_machine_gun_equipment"
+		textureFile = "gfx/graphics/module_light_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_medium_machine_gun_equipment"
+		textureFile = "gfx/graphics/module_medium_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_heavy_machine_gun_equipment"
+		textureFile = "gfx/graphics/module_heavy_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+}
+
+# Grenade Modules
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_anti_tank_grenades"
+		textureFile = "gfx/graphics/module_at_grenade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_frag_grenades"
+		textureFile = "gfx/graphics/module_frag_grenade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_smoke_grenades"
+		textureFile = "gfx/graphics/module_smoke_grenade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_phosphor_grenades"
+		textureFile = "gfx/graphics/module_phosphor_grenade.dds"
+		legacy_lazy_load = no
+	}
+}
+
+# Main Weapons
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_EMI_bolt_action_rifle"
+		textureFile = "gfx/graphics/module_bolt_action_rifle.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_iw_submachine_gun"
+		textureFile = "gfx/graphics/module_iw_smg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_submachine_gun"
+		textureFile = "gfx/graphics/module_advanced_smg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_semi_auto_rifle"
+		textureFile = "gfx/graphics/module_semi_auto_rifle.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_assault_rifle"
+		textureFile = "gfx/graphics/module_assault_rifle.dds"
+		legacy_lazy_load = no
+	}
+}
+
+
+# Rigs
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_EMI_simple_uniform"
+		textureFile = "gfx/graphics/module_simple_uniform.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_steel_plated_protection"
+		textureFile = "gfx/graphics/module_steel_plate_body_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_bulletproof_vest"
+		textureFile = "gfx/graphics/module_bulletproof_vest.dds"
+		legacy_lazy_load = no
+	}
+}
+
+# Extra Equipment
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_EMI_crowd_control"
+		textureFile = "gfx/graphics/module_mob_control.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_mine_equipment"
+		textureFile = "gfx/graphics/module_mine_equipment.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_early_night_vision"
+		textureFile = "gfx/graphics/module_night_vision1_inf.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_night_vision"
+		textureFile = "gfx/graphics/module_night_vision2_inf.dds"
+		legacy_lazy_load = no
+	}
+
+	
+	spriteType = {
+		name = "GFX_EMI_first_aid_kits"
+		textureFile = "gfx/graphics/module_first_aid.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_flare_gun"
+		textureFile = "gfx/graphics/module_flare_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_radios"
+		textureFile = "gfx/graphics/module_radio.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_wired_telephones"
+		textureFile = "gfx/graphics/module_telephone.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_extra_magazines"
+		textureFile = "gfx/graphics/module_extra_magazines.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_reconnaissance_equipment"
+		textureFile = "gfx/graphics/module_reconnaissance_equipment.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_pioneer_equipment"
+		textureFile = "gfx/graphics/module_pioneer_equipment.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_grenade_launcher_equipment"
+		textureFile = "gfx/graphics/module_grenade_launcher.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_anti_tank_launcher_equipment"
+		textureFile = "gfx/graphics/module_infantery_at1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_anti_tank_launcher_equipment"
+		textureFile = "gfx/graphics/module_infantery_at2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_guided_anti_tank_launcher_equipment"
+		textureFile = "gfx/graphics/module_infantery_at3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ground_to_air_grenades_equipment"
+		textureFile = "gfx/graphics/module_infantery_aa1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ground_to_air_missile_equipment"
+		textureFile = "gfx/graphics/module_infantery_aa2.dds"
+		legacy_lazy_load = no
+	}
+
+}

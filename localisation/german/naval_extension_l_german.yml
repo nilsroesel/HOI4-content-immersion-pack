@@ -1,0 +1,50 @@
+﻿l_german:
+  ship_anti_air_rockets:0 "Boden-Luft Raketen"
+  ship_anti_air_rockets_desc:0 "Erste Generation von Infrarot- und Radarsuchköpfen für Luftziele."
+  # Anti Ship Rockets 1
+  t_anti_ship_rocket_battery:0 "Einfache Abschussvorrichtung für Seezielflugkörper"
+  t_anti_ship_rocket_battery_desc:0 "Bereits 1918 setzten die Deutschen drahtgelenkte, mit Tragflächen ausgerüstete, Torpedos, die von Zeppelinen abgeworfen und vor den feindlichen Schiffen ins Wasser gelenkt wurden, ein. Ab 1943 kamen luftgestützte, gelenkte Bomben mit Raketenantrieb zum Einsatz, die sich als äußerst effektiv erwiesen. Spätere Modelle wurden mit Kameras ausgestattet, um die Zielführung zu erleichtern."
+  
+  anti_ship_rocket_battery:0 "Seezielflugkörper"
+  anti_ship_rocket_battery_desc:0 "Bereits 1918 setzten die Deutschen drahtgelenkte, mit Tragflächen ausgerüstete, Torpedos, die von Zeppelinen abgeworfen und vor den feindlichen Schiffen ins Wasser gelenkt wurden, ein. Ab 1943 kamen luftgestützte, gelenkte Bomben mit Raketenantrieb zum Einsatz, die sich als äußerst effektiv erwiesen. Spätere Modelle wurden mit Kameras ausgestattet, um die Zielführung zu erleichtern."
+
+  anti_ship_rocket_battery_small:0 "Kleine Batterie für Seezielflugkörper"
+  anti_ship_rocket_battery_small_desc:0 "Bereits 1918 setzten die Deutschen drahtgelenkte, mit Tragflächen ausgerüstete, Torpedos, die von Zeppelinen abgeworfen und vor den feindlichen Schiffen ins Wasser gelenkt wurden, ein. Ab 1943 kamen luftgestützte, gelenkte Bomben mit Raketenantrieb zum Einsatz, die sich als äußerst effektiv erwiesen. Spätere Modelle wurden mit Kameras ausgestattet, um die Zielführung zu erleichtern."
+
+  anti_ship_rocket_battery_medium:0 "Mittelere Batterie für Seezielflugkörper"
+  anti_ship_rocket_battery_medium_desc:0 "Bereits 1918 setzten die Deutschen drahtgelenkte, mit Tragflächen ausgerüstete, Torpedos, die von Zeppelinen abgeworfen und vor den feindlichen Schiffen ins Wasser gelenkt wurden, ein. Ab 1943 kamen luftgestützte, gelenkte Bomben mit Raketenantrieb zum Einsatz, die sich als äußerst effektiv erwiesen. Spätere Modelle wurden mit Kameras ausgestattet, um die Zielführung zu erleichtern."
+
+  anti_ship_rocket_battery_heavy:0 "Große Batterie für Seezielflugkörper"
+  anti_ship_rocket_battery_heavy_desc:0 "Bereits 1918 setzten die Deutschen drahtgelenkte, mit Tragflächen ausgerüstete, Torpedos, die von Zeppelinen abgeworfen und vor den feindlichen Schiffen ins Wasser gelenkt wurden, ein. Ab 1943 kamen luftgestützte, gelenkte Bomben mit Raketenantrieb zum Einsatz, die sich als äußerst effektiv erwiesen. Spätere Modelle wurden mit Kameras ausgestattet, um die Zielführung zu erleichtern."
+
+
+
+  # Anti Ship Rockets 2
+  t_anti_ship_rocket_battery_2:0 "Kameragestützter Seezielflugkörper"
+  t_anti_ship_rocket_battery_2_desc:0 "Mit der Zielführung über eine Kamera können die Raketen, die Schwachstellen feindlicher Schiffe, noch viel genauer treffen."
+  
+  anti_ship_rocket_battery_2:0 "Einfache Abschussvorrichtung für Kameragestützte Seezielflugkörper"
+  anti_ship_rocket_battery_2_desc:0 "Mit der Zielführung über eine Kamera können die Raketen, die Schwachstellen feindlicher Schiffe, noch viel genauer treffen."
+
+  anti_ship_rocket_battery_2_small:0 "Kleine Batterie für Kameragestützte Seezielflugkörper"
+  anti_ship_rocket_battery_2_small_desc:0 "Mit der Zielführung über eine Kamera können die Raketen, die Schwachstellen feindlicher Schiffe, noch viel genauer treffen."
+
+  anti_ship_rocket_battery_2_medium:0 "Mittelere Batterie für Kameragestützte Seezielflugkörper"
+  anti_ship_rocket_battery_2_medium_desc:0 "Mit der Zielführung über eine Kamera können die Raketen, die Schwachstellen feindlicher Schiffe, noch viel genauer treffen."
+
+  anti_ship_rocket_battery_2_heavy:0 "Große Batterie für Kameragestützte Seezielflugkörper"
+  anti_ship_rocket_battery_2_heavy_desc:0 "Mit der Zielführung über eine Kamera können die Raketen, die Schwachstellen feindlicher Schiffe, noch viel genauer treffen."
+
+
+
+  # Nuclear Engines
+  nuclear_carrier_ship_engine:0 "Nuklearantrieb"
+  nuclear_carrier_ship_engine_desc:0 "Nach dem Zweiten Weltkrieg und der voranschreitenden Nuklearforschung wurde die USS-Nautilus das erste atombetriebene U-Boot der Geschichte. Dieser Antrie wurde dann auch auf andere Schiffstypen übertragen."
+  nuclear_heavy_ship_engine:0 "Nuklearantrieb"
+  nuclear_heavy_ship_engine_desc:0 "Nach dem Zweiten Weltkrieg und der voranschreitenden Nuklearforschung wurde die USS-Nautilus das erste atombetriebene U-Boot der Geschichte. Dieser Antrie wurde dann auch auf andere Schiffstypen übertragen."
+  nuclear_cruiser_ship_engine:0 "Nuklearantrieb"
+  nuclear_cruiser_ship_engine_desc:0 "Nach dem Zweiten Weltkrieg und der voranschreitenden Nuklearforschung wurde die USS-Nautilus das erste atombetriebene U-Boot der Geschichte. Dieser Antrie wurde dann auch auf andere Schiffstypen übertragen."
+  nuclear_sub_ship_engine:0 "Nuklearantrieb"
+  nuclear_sub_ship_engine_desc:0 "Nach dem Zweiten Weltkrieg und der voranschreitenden Nuklearforschung wurde die USS-Nautilus das erste atombetriebene U-Boot der Geschichte. Dieser Antrie wurde dann auch auf andere Schiffstypen übertragen."
+  nuclear_light_ship_engine:0 "Nuklearantrieb"
+  nuclear_light_ship_engine_desc:0 "Nach dem Zweiten Weltkrieg und der voranschreitenden Nuklearforschung wurde die USS-Nautilus das erste atombetriebene U-Boot der Geschichte. Dieser Antrie wurde dann auch auf andere Schiffstypen übertragen."

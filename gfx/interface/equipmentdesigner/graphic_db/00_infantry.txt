@@ -1,0 +1,174 @@
+default = {
+	infantry_chassis = {
+		pool = {
+
+			icons = { 
+				GFX_advanced_infantry_weapons_medium
+				GFX_improved_infantry_weapons_medium
+				GFX_infantry_weapons_medium
+				GFX_infantry_weapons1_medium
+
+				GFX_SOV_infantry_weapons_medium
+				GFX_SOV_infantry_weapons1_medium
+				GFX_SOV_advanced_infantry_weapons_medium
+				GFX_SOV_improved_infantry_weapons_medium
+
+				GFX_GER_infantry_weapons_medium
+				GFX_GER_infantry_weapons1_medium
+				GFX_GER_advanced_infantry_weapons_medium
+				GFX_GER_improved_infantry_weapons_medium
+
+				GFX_JAP_advanced_infantry_weapons_medium
+				GFX_JAP_improved_infantry_weapons_medium
+
+				GFX_ENG_infantry_weapons_medium
+				GFX_ENG_infantry_weapons1_medium
+				GFX_ENG_advanced_infantry_weapons_medium
+				GFX_ENG_improved_infantry_weapons_medium
+
+				GFX_CAN_infantry_weapons_medium
+				GFX_CAN_infantry_weapons1_medium
+				GFX_CAN_advanced_infantry_weapons_medium
+				GFX_CAN_improved_infantry_weapons_medium
+
+				GFX_SAF_infantry_weapons_medium
+				GFX_SAF_infantry_weapons1_medium
+				GFX_SAF_advanced_infantry_weapons_medium
+				GFX_SAF_improved_infantry_weapons_medium
+
+				GFX_AST_infantry_weapons_medium
+				GFX_AST_infantry_weapons1_medium
+				GFX_AST_advanced_infantry_weapons_medium
+				GFX_AST_improved_infantry_weapons_medium
+
+				GFX_NZL_infantry_weapons_medium
+				GFX_NZL_infantry_weapons1_medium
+				GFX_NZL_advanced_infantry_weapons_medium
+				GFX_NZL_improved_infantry_weapons_medium
+
+				GFX_RAJ_infantry_weapons_medium
+				GFX_RAJ_infantry_weapons1_medium
+				GFX_RAJ_advanced_infantry_weapons_medium
+				GFX_RAJ_improved_infantry_weapons_medium
+
+				GFX_HUN_infantry_weapons_medium
+				GFX_HUN_infantry_weapons1_medium
+				GFX_HUN_advanced_infantry_weapons_medium
+				GFX_HUN_improved_infantry_weapons_medium
+
+				GFX_CZE_infantry_weapons_medium
+				GFX_CZE_infantry_weapons1_medium
+				GFX_CZE_advanced_infantry_weapons_medium
+				GFX_CZE_improved_infantry_weapons_medium
+
+				GFX_ROM_infantry_weapons_medium
+				GFX_ROM_infantry_weapons1_medium
+				GFX_ROM_advanced_infantry_weapons_medium
+				GFX_ROM_improved_infantry_weapons_medium
+
+				GFX_YUG_infantry_weapons_medium
+				GFX_YUG_infantry_weapons1_medium
+				GFX_YUG_advanced_infantry_weapons_medium
+				GFX_YUG_improved_infantry_weapons_medium
+
+				GFX_SPR_infantry_weapons_medium
+				GFX_SPR_infantry_weapons1_medium
+				GFX_SPR_advanced_infantry_weapons_medium
+				GFX_SPR_improved_infantry_weapons_medium
+
+				GFX_POR_infantry_weapons_medium
+				GFX_POR_infantry_weapons1_medium
+				GFX_POR_advanced_infantry_weapons_medium
+				GFX_POR_improved_infantry_weapons_medium
+
+				GFX_USA_infantry_weapons_medium
+				GFX_USA_infantry_weapons1_medium
+				GFX_USA_advanced_infantry_weapons_medium
+				GFX_USA_improved_infantry_weapons_medium
+				
+
+
+			}
+			models = {
+				AST_infantry_entity
+				RAJ_infantry_entity
+				NZL_infantry_entity
+				ENG_infantry_entity
+				CAN_infantry_entity
+				SAF_infantry_entity
+
+				
+				AST_infantry_2_entity
+				RAJ_infantry_2_entity
+				NZL_infantry_2_entity
+				ENG_infantry_2_entity
+				CAN_infantry_2_entity
+				SAF_infantry_2_entity
+
+				AST_infantry_entity_snow
+				RAJ_infantry_entity_snow
+				NZL_infantry_entity_snow
+				ENG_infantry_entity_snow
+				CAN_infantry_entity_snow
+				SAF_infantry_entity_snow
+
+				
+				AST_infantry_2_entity_snow
+				RAJ_infantry_2_entity_snow
+				NZL_infantry_2_entity_snow
+				ENG_infantry_2_entity_snow
+				CAN_infantry_2_entity_snow
+				SAF_infantry_2_entity_snow
+
+				CZE_infantry_entity
+				CZE_infantry_2_entity
+
+				HUN_infantry_entity
+				HUN_infantry_2_entity
+
+				ROM_infantry_entity
+				ROM_infantry_2_entity
+
+				YUG_infantry_entity
+				YUG_infantry_2_entity
+
+				asian_gfx_infantry_entity
+				asian_gfx_infantry_2_entity
+				eastern_european_gfx_infantry_entity
+				eastern_european_gfx_infantry_2_entity
+				southamerican_gfx_infantry_entity
+				southamerican_gfx_infantry_2_entity
+
+
+				FRA_infantry_entity
+				FRA_infantry_2_entity
+
+				GER_infantry_entity
+				GER_infantry_2_entity
+
+				ITA_infantry_entity
+				ITA_infantry_2_entity
+
+				SOV_infantry_entity
+				SOV_infantry_2_entity
+
+				USA_infantry_entity
+				USA_infantry_2_entity
+
+				JAP_infantry_entity
+				JAP_infantry_2_entity
+
+				SPR_infantry_entity
+				SPR_infantry_2_entity
+
+				POR_infantry_entity
+				POR_infantry_2_entity
+
+		
+				
+			}
+		}
+	}
+
+
+}

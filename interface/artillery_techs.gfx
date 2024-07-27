@@ -1,0 +1,14 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_infantry_aa_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+    SpriteType = {
+		name = "GFX_infantry_aa2_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+	#SpriteType = {
+	#	name = "GFX_improved_infantry_weapons_medium"
+	#	texturefile = "gfx/interface/technologies/SOV_infantry_equipment_2.dds"
+	#}
+}

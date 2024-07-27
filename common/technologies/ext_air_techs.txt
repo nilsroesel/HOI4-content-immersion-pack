@@ -1,0 +1,265 @@
+technologies = {
+    aa_cannon_2 = {
+
+		enable_equipment_modules = {
+			aircraft_cannon_2_1x
+			aircraft_cannon_2_2x
+			cannon_defense_turret
+			cannon_defense_turret_2x
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 2 y = 7 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_guns
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = improved_small_airframe
+					has_tech = improved_medium_airframe
+					has_tech = improved_large_airframe
+				}
+				factor = 5
+			}
+			modifier = {
+				OR = {
+					tag = GER
+					tag = SOV
+					tag = ENG
+				}
+				factor = 3
+			}
+		}
+        path = {
+			leads_to_tech = t_unguided_air_to_air_missiles
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = t_guided_weapons
+			research_cost_coeff = 1
+		}
+   
+	}
+    t_unguided_air_to_air_missiles = {
+        enable_equipment_modules = {
+			unguided_air_to_air_missiles
+		}
+        research_cost = 1
+        start_year = 1944
+
+        folder = {
+            name = bba_air_techs_folder
+            position = { x = -2 y = 9 }
+        }
+        categories = {
+            air_equipment
+            plane_modules_tech
+            cat_air_guns
+        }
+        dependencies = {
+            advanced_rocket_engines = 1
+		}
+
+        path = {
+			leads_to_tech = t_air_to_air_missiles
+			research_cost_coeff = 1
+		}
+    }
+
+    t_guided_weapons = {
+        start_year = 1944
+        
+        path = {
+			leads_to_tech = t_guided_air_to_ground_missile
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = t_guided_bomb
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = t_air_to_air_missiles
+			research_cost_coeff = 1
+		}
+
+        folder = {
+            name = bba_air_techs_folder
+            position = { x = 2 y = 9 }
+        }
+
+        dependencies = {
+            advanced_computing_machine = 1
+            advanced_rocket_engines = 1
+		}
+
+    }
+
+    t_air_to_air_missiles = {
+        enable_equipment_modules = {
+			air_to_air_missiles
+		}
+        research_cost = 1
+        start_year = 1940
+
+        folder = {
+            name = bba_air_techs_folder
+            position = { x = -2 y = 11 }
+        }
+        categories = {
+            air_equipment
+            plane_modules_tech
+            cat_air_guns
+        }
+        dependencies = {
+            t_unguided_air_to_air_missiles = 1
+            advanced_computing_machine = 1
+            advanced_rocket_engines = 1
+		}
+    }
+
+    t_guided_air_to_ground_missile = {
+        enable_equipment_modules = {
+            guided_air_to_ground_missile 
+        }
+        research_cost = 1
+        start_year = 1944
+
+        folder = {
+            name = bba_air_techs_folder
+            position = { x = 0 y = 11 }
+        }
+        categories = {
+            air_equipment
+            plane_modules_tech
+            cat_air_bombs
+        }
+        dependencies = {
+            advanced_rocket_engines = 1
+            advanced_computing_machine = 1
+        }
+    }
+
+    t_guided_bomb = {
+        enable_equipment_modules = {
+            guided_bomb
+        }
+        research_cost = 1
+        start_year = 1944
+
+        folder = {
+            name = bba_air_techs_folder
+            position = { x = 2 y = 11 }
+        }
+        categories = {
+            air_equipment
+            plane_modules_tech
+            cat_air_bombs
+        }
+        dependencies = {
+            advanced_computing_machine = 1
+        }
+    }
+
+    iw_large_airframe = {
+
+		enable_equipments = {
+			large_plane_airframe_0
+			large_plane_maritime_patrol_plane_airframe_0
+		}
+	
+		path = {
+			leads_to_tech = basic_large_airframe
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = t_cargo_hold
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = t_parachute_drop_system
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1926
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+
+    t_cargo_hold = {
+        research_cost = 1
+        start_year = 1933
+
+        enable_equipment_modules = {
+			cargo_hold
+		}
+
+        folder = {
+			name = bba_air_techs_folder
+			position = { x = 2 y = 4 }
+		}
+
+        categories = {
+            air_equipment
+            plane_modules_tech
+        }
+    }
+
+    t_parachute_drop_system = {
+        research_cost = 1
+        start_year = 1933
+
+        enable_equipment_modules = {
+			parachute_drop_system
+		}
+
+        folder = {
+			name = bba_air_techs_folder
+			position = { x = 3 y = 4 }
+		}
+
+        categories = {
+            air_equipment
+            plane_modules_tech
+        }
+    }
+
+
+}

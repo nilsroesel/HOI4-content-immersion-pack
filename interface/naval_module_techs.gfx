@@ -1,0 +1,93 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_SMI_ship_anti_air_rockets"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_t_anti_ship_rocket_battery_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+    SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_small"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_heavy"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"
+		legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "GFX_t_anti_ship_rocket_battery_2_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+    SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_2_small"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_EMI_anti_ship_rocket_battery_2_heavy"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_2.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_EMI_nuclear_carrier_ship_engine"
+		textureFile = "gfx/graphics/nuclear_engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_EMI_nuclear_heavy_ship_engine"
+		textureFile = "gfx/graphics/nuclear_engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_EMI_nuclear_cruiser_ship_engine"
+		textureFile = "gfx/graphics/nuclear_engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_EMI_nuclear_sub_ship_engine"
+		textureFile = "gfx/graphics/nuclear_engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_EMI_nuclear_light_ship_engine"
+		textureFile = "gfx/graphics/nuclear_engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+}

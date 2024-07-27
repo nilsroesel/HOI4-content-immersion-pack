@@ -1,0 +1,98 @@
+spriteTypes = {
+
+	# Role Icons
+
+	SpriteType = {
+		name = "GFX_armored_car_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/armored_car.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mechanized_ifv_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/mech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_aa"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/mech.dds"
+	}
+
+	
+	###Blueprints
+
+	spriteType = {
+		name = "GFX_TC_armored_car_chassis"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_armored_car_chassis_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_armored_car_chassis_main_armament_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_armored_car_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_armored_car_chassis_turret_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_armored_car_turret.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_armored_car_chassis_suspension_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_armored_car_suspension.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_TC_mechanized_ifv_chassis"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_chassis_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_mechanized_ifv_chassis_main_armament_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_mechanized_ifv_chassis_turret_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_turret.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_mechanized_ifv_chassis_suspension_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_suspension.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+
+	SpriteType = {
+		name = "GFX_TC_infantry_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/infantry/infantry_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_infantry_chassis_main_armament_slot"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/infantry_weapon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TM_infantry_chassis_rig_slot"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/infantry_rig.dds"
+		legacy_lazy_load = no
+	}
+
+
+	
+
+}

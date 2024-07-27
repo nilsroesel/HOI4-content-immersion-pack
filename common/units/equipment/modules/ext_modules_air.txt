@@ -1,0 +1,222 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+
+	unguided_air_to_air_missiles = {
+		abbreviation = "rrl"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			build_cost_ic = 1
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+		mission_type_stats = {
+			limit = {
+				air_superiority
+			    interception
+		    }
+		}
+		add_stats = {
+			air_attack = 30
+			weight = 1
+		}
+		dismantle_cost_ic = 0.5
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+
+    air_to_air_missiles = {
+		abbreviation = "rrl"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		xp_cost = 2
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+		mission_type_stats = {
+			limit = {
+				air_superiority
+			    interception
+		    }
+		}
+		add_stats = {
+			air_attack = 50
+			night_penalty = -0.5
+			weight = 1
+			build_cost_ic = 1
+		}
+		dismantle_cost_ic = 0.5
+		build_cost_resources = {
+			tungsten = 1
+			chromium = 1
+		}
+	}
+
+    guided_air_to_ground_missile = {
+		abbreviation = "rrl"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			build_cost_ic = 1
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+            naval_bomber
+            naval_patrol
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+                attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 40
+			}
+		}
+		mission_type_stats = {
+			limit = {
+                port_strike
+                naval_bomber
+                naval_patrol
+			}
+			add_stats = {
+				naval_strike_attack = 15
+                naval_strike_targetting = 50
+			}
+		}
+
+		mission_type_stats = {
+			limit = {
+                strategic_bomber
+			}
+			add_stats = {
+                air_bombing = 4
+			}
+		}
+		dismantle_cost_ic = 0.5
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+
+    guided_bomb = {
+      abbreviation = "mbb"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas tactical_bomber strategic_bomber naval_bomber maritime_patrol_plane }
+
+		add_stats = {
+			build_cost_ic = 6
+			weight = 6
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+            naval_bomber
+            naval_patrol
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+                attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 40
+			}
+		}
+		mission_type_stats = {
+			limit = {
+                port_strike
+                naval_bomber
+                naval_patrol
+			}
+			add_stats = {
+				naval_strike_attack = 40
+                naval_strike_targetting = 25
+			}
+		}
+
+		mission_type_stats = {
+			limit = {
+                strategic_bomber
+			}
+			add_stats = {
+                air_bombing = 50
+			}
+		}
+
+		dismantle_cost_ic = 7
+		build_cost_resources = {
+			chromium = 1
+			steel = 1
+		}
+
+    }
+
+
+	cargo_hold = {
+		abbreviation = "mbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = {
+			air_transport
+		 	strategic_bomber
+		}
+
+		add_stats = {
+			build_cost_ic = 6
+			weight = 6
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			air_supply
+		}
+		dismantle_cost_ic = 1
+  
+	}
+
+	parachute_drop_system = {
+		abbreviation = "mbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = {
+			air_transport
+			strategic_bomber
+		}
+
+		add_stats = {
+			build_cost_ic = 6
+			weight = 6
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			paradrop
+		}
+		dismantle_cost_ic = 1
+  
+	}
+
+
+
+}

@@ -1,0 +1,170 @@
+generic_mechanized_ifvs = {
+	category = land
+
+	available_for = {}
+
+	roles = {
+		ifv
+	}
+
+	priority = {
+		factor = 1000
+	}
+
+	inter_war_mechanized_ifv = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = mechanised_infantry
+				factor = 0 #let's not waste XP here
+			}
+		}
+
+		target_variant = {
+			match_value = 1000
+			type = mechanized_ifv_chassis_0
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_wheeled_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = {
+					base = 1
+					modifier = {
+						add = 1
+						has_war = yes
+					}
+				}
+			}
+		}
+
+		allowed_modules = {
+			tank_heavy_machine_gun
+			tank_light_one_man_tank_turret
+			tank_wheeled_suspension
+			tank_riveted_armor
+			tank_gasoline_engine
+		}
+	}
+
+	improved_mechanized_ifv = {
+		priority = {
+			factor = 200
+			modifier = { 
+				has_tech = mechanized_ifv_chassis_1
+				factor = 0 #let's not waste XP here
+			}
+		}
+
+		target_variant = {
+			match_value = 2000
+			type = armored_car_chassis_1
+			modules = {
+				main_armament_slot = { 
+					any_of = { 
+						tank_small_cannon_2
+						tank_auto_cannon_2 
+						tank_small_cannon 
+						tank_auto_cannon 
+						tank_heavy_machine_gun 
+					} 
+				}
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_wheeled_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = {
+					base = 1
+					modifier = {
+						add = 1
+						has_war = yes
+					}
+				}
+			}
+		}
+
+		allowed_modules = {
+			tank_auto_cannon 
+			tank_auto_cannon_2 
+			tank_small_cannon 
+			tank_small_cannon_2 
+			tank_heavy_machine_gun 
+			tank_light_one_man_tank_turret
+			tank_wheeled_suspension
+			tank_riveted_armor
+			tank_gasoline_engine
+		}
+	}
+
+	advanced_mechanized_ifv = {
+		priority = {
+			factor = 300
+			modifier = { 
+				has_tech = mechanised_infantry3
+				factor = 2 #let's not waste XP here
+			}
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = mechanized_ifv_chassis_2
+			modules = {
+				main_armament_slot = { 
+					any_of = { 
+						tank_small_cannon_2
+						tank_auto_cannon_2 
+						tank_small_cannon 
+						tank_auto_cannon 
+						tank_heavy_machine_gun 
+					} 
+				}
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_half_track_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = {
+					base = 1
+					modifier = {
+						add = 1
+						has_war = yes
+					}
+				}
+			}
+		}
+
+		allowed_modules = {
+			tank_auto_cannon 
+			tank_auto_cannon_2 
+			tank_small_cannon 
+			tank_small_cannon_2 
+			tank_heavy_machine_gun 
+			tank_light_one_man_tank_turret
+			tank_half_track_suspension
+			tank_riveted_armor
+			tank_gasoline_engine
+		}
+	}
+
+}

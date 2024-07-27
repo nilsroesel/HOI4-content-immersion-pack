@@ -1,0 +1,137 @@
+technologies = {
+ infantry_aa = {
+		category_all_infantry = {
+            air_attack = 1
+		}
+
+        anti_air = {
+			air_attack = 0.2
+		}
+		anti_air_brigade = {
+			air_attack = 0.2
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.2
+		}
+
+        static_anti_air_damage_factor = 0.2
+		
+		path = {
+			leads_to_tech = infantry_aa2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_equipment_modules = {
+			ground_to_air_grenades_equipment
+		}
+	}
+	
+	infantry_aa2 = {
+
+		category_all_infantry = {
+			air_attack = 25
+		}
+
+        anti_air = {
+			air_attack = 0.5
+		}
+		anti_air_brigade = {
+			air_attack = 0.5
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.5
+		}
+
+		enable_equipment_modules = {
+			tank_anti_air_rockets
+			ship_anti_air_rockets
+			ground_to_air_missile_equipment
+		}
+
+        static_anti_air_damage_factor = 0.5
+		
+		research_cost = 1.5
+		start_year = 1946
+		folder = {
+			name = artillery_folder
+			position = { x =-7 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+         dependencies = {
+            advanced_computing_machine = 1
+            advanced_rocket_engines = 1
+		}
+	}
+
+    antiair4 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair5
+			research_cost_coeff = 1
+		}
+
+        path = {
+			leads_to_tech = infantry_aa
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+}
